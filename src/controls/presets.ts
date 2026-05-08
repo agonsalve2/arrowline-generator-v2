@@ -77,9 +77,26 @@ export async function loadPresets(): Promise<Preset[]> {
       }
     }
   } catch {
-    // fall through to localStorage
+    // fall through
   }
-  cache = normalisePresets(readLocal());
+  const local = readLocal();
+  if (local.length > 0) {
+    cache = normalisePresets(local);
+    return cache;
+  }
+  try {
+    const res = await fetch('/presets.json');
+    if (res.ok) {
+      const data = await res.json();
+      if (Array.isArray(data)) {
+        cache = normalisePresets(data);
+        return cache;
+      }
+    }
+  } catch {
+    // ignore
+  }
+  cache = [];
   return cache;
 }
 
