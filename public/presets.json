@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Light Red",
+    "config": {
+      "cornerRadius": 22,
+      "strokeWidth": 0.5,
+      "strokeColor": "#ffffff",
+      "zOrder": "small-front",
+      "fillMode": "gradient",
+      "fillColor": "#ffffff",
+      "gradientStart": {
+        "type": "linear",
+        "stops": [
+          {
+            "color": "#ffb5b3",
+            "position": 0
+          },
+          {
+            "color": "#fff4ed",
+            "position": 49
+          },
+          {
+            "color": "#ead9d1",
+            "position": 100
+          }
+        ],
+        "midpoints": [
+          0.21723533163265307,
+          0.8328993055555556
+        ],
+        "angle": 179
+      },
+      "gradientEnd": {
+        "type": "linear",
+        "stops": [
+          {
+            "color": "#f8918d",
+            "position": 0
+          },
+          {
+            "color": "#fff4ed",
+            "position": 46
+          },
+          {
+            "color": "#ead9d1",
+            "position": 100
+          }
+        ],
+        "midpoints": [
+          0.23378314393939395,
+          0.8148903917910447
+        ],
+        "angle": 180
+      },
+      "backgroundMode": "linear",
+      "bgGradient": {
+        "type": "linear",
+        "stops": [
+          {
+            "color": "#f1eae6",
+            "position": 0
+          },
+          {
+            "color": "#fff4ed",
+            "position": 57
+          },
+          {
+            "color": "#ffffff",
+            "position": 100
+          }
+        ],
+        "midpoints": [
+          0.295797633618931,
+          0.5775193798449613
+        ],
+        "angle": 256
+      },
+      "marchSpeed": -0.15
+    },
+    "createdAt": 1778160025180
+  },
+  {
+    "name": "Light",
+    "config": {
+      "cornerRadius": 15,
+      "strokeWidth": 0.5,
+      "strokeColor": "#ffffff",
+      "zOrder": "small-front",
+      "fillMode": "gradient",
+      "fillColor": "#ffffff",
+      "gradientStart": {
+        "type": "linear",
+        "stops": [
+          {
+            "color": "#f1eae6",
+            "position": 0
+          },
+          {
+            "color": "#fff4ed",
+            "position": 50
+          },
+          {
+            "color": "#ffffff",
+            "position": 100
+          }
+        ],
+        "midpoints": [
+          0.40625,
+          0.6875
+        ],
+        "angle": 179
+      },
+      "gradientEnd": {
+        "type": "linear",
+        "stops": [
+          {
+            "color": "#f1eae6",
+            "position": 4
+          },
+          {
+            "color": "#fff4ed",
+            "position": 50
+          },
+          {
+            "color": "#ffffff",
+            "position": 100
+          }
+        ],
+        "midpoints": [
+          0.46484375,
+          0.6328125
+        ],
+        "angle": 184
+      },
+      "backgroundMode": "linear",
+      "bgGradient": {
+        "type": "linear",
+        "stops": [
+          {
+            "color": "#f1eae6",
+            "position": 0
+          },
+          {
+            "color": "#fff4ed",
+            "position": 57
+          },
+          {
+            "color": "#ffffff",
+            "position": 100
+          }
+        ],
+        "midpoints": [
+          0.295797633618931,
+          0.5775193798449613
+        ],
+        "angle": 256
+      },
+      "marchSpeed": 0.4
+    },
+    "createdAt": 1778160037947
+  },
+  {
+    "name": "Red",
+    "config": {
+      "cornerRadius": 15,
+      "strokeWidth": 0.5,
+      "strokeColor": "#ff8255",
+      "zOrder": "small-front",
+      "fillMode": "gradient",
+      "fillColor": "#ffffff",
+      "gradientStart": {
+        "type": "linear",
+        "stops": [
+          {
+            "color": "#bf2e3f",
+            "position": 0
+          },
+          {
+            "color": "#f23f3f",
+            "position": 50
+          },
+          {
+            "color": "#ff8255",
+            "position": 100
+          }
+        ],
+        "midpoints": [
+          0.40625,
+          0.6875
+        ],
+        "angle": 179
+      },
+      "gradientEnd": {
+        "type": "linear",
+        "stops": [
+          {
+            "color": "#bf2e3f",
+            "position": 4
+          },
+          {
+            "color": "#f23f3f",
+            "position": 50
+          },
+          {
+            "color": "#ff8255",
+            "position": 100
+          }
+        ],
+        "midpoints": [
+          0.46484375,
+          0.6328125
+        ],
+        "angle": 184
+      },
+      "backgroundMode": "linear",
+      "bgGradient": {
+        "type": "linear",
+        "stops": [
+          {
+            "color": "#bf2e3f",
+            "position": 0
+          },
+          {
+            "color": "#f23f3f",
+            "position": 57
+          },
+          {
+            "color": "#ff8255",
+            "position": 100
+          }
+        ],
+        "midpoints": [
+          0.22099823201414387,
+          0.5775193798449613
+        ],
+        "angle": 347
+      },
+      "marchSpeed": 0.4
+    },
+    "createdAt": 1778160045164
+  }
+]
